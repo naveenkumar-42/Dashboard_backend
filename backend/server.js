@@ -34,6 +34,7 @@ app.get('/students', (req, res) => {
         });
 });
 
+
 app.get('/sem', (req, res) => {
     const sql = 'SELECT * FROM sem';
     promisePool.query(sql)
